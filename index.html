@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shushant Singh - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <header id="header" class="bg-gray-900/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white tracking-wider">Shushant Singh</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-300 hover:text-cyan-400 transition">About</a>
+                <a href="#skills" class="text-gray-300 hover:text-cyan-400 transition">Skills</a>
+                <a href="#projects" class="text-gray-300 hover:text-cyan-400 transition">Projects</a>
+                <a href="#experience" class="text-gray-300 hover:text-cyan-400 transition">Experience</a>
+                <a href="#contact" class="text-gray-300 hover:text-cyan-400 transition">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white">
+                <i data-feather="menu"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">About</a>
+            <a href="#skills" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Skills</a>
+            <a href="#projects" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Projects</a>
+            <a href="#experience" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Experience</a>
+            <a href="#contact" class="block py-2 px-6 text-gray-300 hover:bg-gray-800">Contact</a>
+        </div>
+    </header>
+
+    <main class="pt-16 overflow-x-hidden">
+
+        <section id="hero" class="min-h-screen flex items-center relative">
+            <div id="particles-js"></div>
+            <div class="container mx-auto px-6 text-center z-10" data-aos="fade-in" data-aos-duration="1000">
+                <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">Shushant Singh</h1>
+                <p class="text-xl md:text-2xl text-cyan-400 mb-8">AI & Machine Learning Enthusiast</p>
+                <p class="max-w-3xl mx-auto text-gray-400 mb-10">
+                    Energetic and innovative AI-ML enthusiast with a passion for building impactful solutions and mastering advanced technologies.
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <a href="https://github.com/skee21" target="_blank" class="text-gray-400 hover:text-white transition"><i data-feather="github" class="w-8 h-8"></i></a>
+                    <a href="https://www.linkedin.com/in/shushant-singh-982ba7259/" target="_blank" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin" class="w-8 h-8"></i></a>
+                    <a href="https://leetcode.com/u/skee21/" target="_blank" class="text-gray-400 hover:text-white transition">
+                        <svg class="w-8 h-8" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LeetCode</title><path fill="currentColor" d="M13.48 4.26l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM10.66 0l-2.82 2.82 2.82 2.82 2.82-2.82L10.66 0zM4.26 13.48l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM0 10.66l2.82 2.82 2.82-2.82L2.82 7.84 0 10.66zm13.48 6.74l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zm-6.36 0l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM24 10.66l-2.82 2.82-2.82-2.82 2.82-2.82 2.82 2.82zM19.74 7.12l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-gray-800/50 section">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">About Me</h2>
+                <div class="max-w-4xl mx-auto text-center text-gray-300 space-y-6" data-aos="fade-up" data-aos-delay="200">
+                    <p>
+                        I'm a third-year B.E. student in Artificial Intelligence and Machine Learning at Canara Engineering College. My journey in technology is driven by a deep-seated passion for problem-solving and a relentless curiosity for what's possible.
+                    </p>
+                    <p>
+                        Proficient in Python, I've developed a range of projects that showcase both technical depth and creativity. From gesture-controlled games to social platforms, I enjoy applying theoretical knowledge to create tangible, real-world solutions.
+                    </p>
+                     <p>
+                        Beyond coding, I'm the founder of an open-source community at my institute and have been recognized as an aspiring entrepreneur. I thrive in collaborative environments and am always eager to learn and take on new challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 bg-gray-900 section">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">Technical Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg text-center card-glow" data-aos="fade-up" data-aos-delay="100">
+                        <i data-feather="code" class="w-12 h-12 mx-auto mb-4 text-cyan-400"></i>
+                        <h3 class="text-xl font-semibold text-white mb-2">Programming</h3>
+                        <p class="text-gray-400">Python, JavaScript, C/C++, C#, PHP</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center card-glow" data-aos="fade-up" data-aos-delay="200">
+                        <i data-feather="database" class="w-12 h-12 mx-auto mb-4 text-cyan-400"></i>
+                        <h3 class="text-xl font-semibold text-white mb-2">Databases</h3>
+                        <p class="text-gray-400">SQL/MySQL, MongoDB</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center card-glow" data-aos="fade-up" data-aos-delay="300">
+                        <i data-feather="layout" class="w-12 h-12 mx-auto mb-4 text-cyan-400"></i>
+                        <h3 class="text-xl font-semibold text-white mb-2">Web Development</h3>
+                        <p class="text-gray-400">HTML/CSS, Django, Flask, React, Tailwind</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center card-glow" data-aos="fade-up" data-aos-delay="400">
+                        <i data-feather="tool" class="w-12 h-12 mx-auto mb-4 text-cyan-400"></i>
+                        <h3 class="text-xl font-semibold text-white mb-2">Tools</h3>
+                        <p class="text-gray-400">GIT, AWS, MS Excel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-20 bg-gray-800/50 section">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="100">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Gesture Controlled Video Game</h3>
+                            <p class="text-gray-400 mb-4">A video game controlled by real-time hand gestures.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Tensorflow</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Mediapipe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="200">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Social Hub Portal</h3>
+                            <p class="text-gray-400 mb-4">A web-based social platform to connect and engage students within my institute.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Django</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="300">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Discord Trading Card Game Bot</h3>
+                            <p class="text-gray-400 mb-4">A Discord bot that hosts and manages an interactive trading cards game.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">discord.py</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="400">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">WiFi security testing tool</h3>
+                            <p class="text-gray-400 mb-4">A tool for testing WiFi network security by simulating penetration testing techniques using Python.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Python</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="500">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">P2P texting portal</h3>
+                            <p class="text-gray-400 mb-4">A web-based social platform to connect and engage students within my institute.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">React</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="600">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Multiplayer snake game</h3>
+                            <p class="text-gray-400 mb-4">A web-based social platform to connect and engage students within my institute.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">React</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="700">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Discord Moderation Bot</h3>
+                            <p class="text-gray-400 mb-4">Manages and moderates server activities with auto-mute, flagged words, and QoL features.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">discord.py</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="800">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">Android Ping-Pong Game</h3>
+                            <p class="text-gray-400 mb-4">A classic ping-pong (table tennis) game developed for Android devices.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Kivy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 rounded-lg overflow-hidden card-glow" data-aos="fade-up" data-aos-delay="900">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white mb-2">YouTube to Transcript Tool</h3>
+                            <p class="text-gray-400 mb-4">A utility that converts YouTube videos into accurate, downloadable text transcripts.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Python</span>
+                                <span class="bg-cyan-900/50 text-cyan-300 text-xs font-semibold px-2.5 py-0.5 rounded">Flask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience" class="py-20 bg-gray-900 section">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-white mb-12" data-aos="fade-up">Experience</h2>
+                <div class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg relative card-glow">
+                        <div class="absolute top-0 left-0 -ml-4 w-0.5 h-full bg-cyan-500"></div>
+                        <div class="pl-8">
+                             <div class="mb-8">
+                                <h3 class="text-2xl font-semibold text-white">Backend Developer</h3>
+                                <p class="text-cyan-400 text-lg mb-1">Youga - Mangalore</p>
+                                <p class="text-gray-500">Dec 2024 - Jan 2025</p>
+                                <p class="text-gray-300 mt-4">
+                                    Worked on a yoga pose correction and assistance tool. My primary responsibilities involved backend development, integrating machine learning models for pose detection, and ensuring the application's performance and scalability.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">React</span>
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">Tensorflow</span>
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-lg relative card-glow">
+                        <div class="absolute top-0 left-0 -ml-4 w-0.5 h-full bg-cyan-500"></div>
+                        <div class="pl-8">
+                             <div class="mb-8">
+                                <h3 class="text-2xl font-semibold text-white">Backend Developer</h3>
+                                <p class="text-cyan-400 text-lg mb-1">Canara Engineering College - Mangalore</p>
+                                <p class="text-gray-500">July 2025 - Sept 2025</p>
+                                <p class="text-gray-300 mt-4">
+                                    Restructured the backend infrastructure of the student management portal, including database management, authentication, and API integration. Added faculty and student login and many other features to help streamline the process.
+                                </p>
+                                <div class="flex flex-wrap gap-2 mt-4">
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">React</span>
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">MongoDb</span>
+                                    <span class="bg-gray-700 text-gray-300 text-xs font-semibold px-2.5 py-0.5 rounded">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-gray-800/50 section">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold text-white mb-4" data-aos="fade-up">Get In Touch</h2>
+                <p class="text-gray-400 max-w-2xl mx-auto mb-8" data-aos="fade-up" data-aos-delay="200">
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of an amazing team. Feel free to reach out!
+                </p>
+                <a href="mailto:shushantskee@proton.me" class="inline-block bg-cyan-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-cyan-600 transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    Say Hello
+                </a>
+                <div class="flex justify-center space-x-6 mt-12" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://github.com/skee21" target="_blank" class="text-gray-400 hover:text-white transition"><i data-feather="github" class="w-8 h-8"></i></a>
+                    <a href="https://www.linkedin.com/in/shushant-singh-982ba7259/" target="_blank" class="text-gray-400 hover:text-white transition"><i data-feather="linkedin" class="w-8 h-8"></i></a>
+                    <a href="https://leetcode.com/u/skee21/" target="_blank" class="text-gray-400 hover:text-white transition">
+                        <svg class="w-8 h-8" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LeetCode</title><path fill="currentColor" d="M13.48 4.26l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM10.66 0l-2.82 2.82 2.82 2.82 2.82-2.82L10.66 0zM4.26 13.48l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM0 10.66l2.82 2.82 2.82-2.82L2.82 7.84 0 10.66zm13.48 6.74l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zm-6.36 0l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82zM24 10.66l-2.82 2.82-2.82-2.82 2.82-2.82 2.82 2.82zM19.74 7.12l-2.82 2.82 2.82 2.82 2.82-2.82-2.82-2.82z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 py-6">
+        <div class="container mx-auto px-6 text-center text-gray-500">
+            <p>&copy; 2025 Shushant Singh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
