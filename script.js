@@ -90,3 +90,35 @@ particlesJS('particles-js', {
   },
   "retina_detect": true
 });
+
+const sections = document.querySelectorAll('section.section');
+const dotLinks = document.querySelectorAll('.dot-link');
+const scrollArrow = document.getElementById('scroll-down-arrow');
+
+const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.5
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            dotLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-section') === entry.target.id) {
+                    link.classList.add('active');
+                }
+            });
+            if (entry.target.id === 'hero') {
+                scrollArrow.style.opacity = '1';
+            } else {
+                scrollArrow.style.opacity = '0';
+            }
+        }
+    });
+}, observerOptions);
+
+sections.forEach(section => {
+    observer.observe(section);
+});
